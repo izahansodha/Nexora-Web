@@ -429,7 +429,7 @@ function App() {
             Tell us about your challenge, idea, or next big project.
           </motion.p>
 
-          <motion.a href="mailto:hello@nexora.dev" className="button button-light" 
+          <motion.a href="mailto:izahansodha5316@gmail.com" className="button button-light" 
           whileHover={{
     scale: 1.05,
     boxShadow: "0 15px 40px rgba(100, 120, 255, 0.3)",
