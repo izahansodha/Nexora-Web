@@ -34,22 +34,25 @@ const services = [
 
 const projects = [
   {
-    category: "FINTECH",
-    title: "Nova Finance",
-    description: "Digital banking platform for the next generation.",
+    category: "TECHNOLOGY",
+    title: "Agency Website",
+    description: "A modern, responsive website showcasing our agency's capabilities.",
     gradient: "project-blue",
+    link : "https://agency-web-page-livid.vercel.app/"
   },
   {
-    category: "AI PLATFORM",
-    title: "Synapse AI",
-    description: "Intelligent automation platform for growing teams.",
+    category: "Finance",
+    title: "Ai Banking",
+    description: "Intelligent automation platform for Banking.",
     gradient: "project-purple",
+    link : "https://ai-powered-bank-mange-system.vercel.app/login"
   },
   {
     category: "E-COMMERCE",
     title: "Velo Commerce",
     description: "A high-performance commerce experience built to scale.",
     gradient: "project-cyan",
+    link : "#"
   },
 ];
 
@@ -379,7 +382,7 @@ function App() {
                   <p>{project.description}</p>
                 </div>
 
-                <button className="project-arrow" aria-label={`View ${project.title}`}>
+                <button className="project-arrow" aria-label={`View ${project.title}`} href={`${project.link}`}>
                   ↗
                 </button>
               </motion.article>
